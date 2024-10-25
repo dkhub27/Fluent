@@ -4,9 +4,9 @@ local InterfaceManager = {} do
 	InterfaceManager.Folder = "FluentSettings"
     InterfaceManager.Settings = {
         Theme = "Aqua",
-        Acrylic = true,
-        Transparency = true,
-        MenuKeybind = "LeftControl"
+        Acrylic = false,
+        Transparency = false,
+        MenuKeybind = "E"
     }
 
     function InterfaceManager:SetFolder(folder)
